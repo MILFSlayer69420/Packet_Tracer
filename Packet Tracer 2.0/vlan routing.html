@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Packet Tracer</title>
+    <link rel="stylesheet" href="../Packet Tracer 2.0/stilus/vlanrouting.dastilus.css">
+    <div class="banner">
+        <div class="navbar">
+            <img src="../Packet Tracer 2.0/stilus/kepek/final.logo.png" class="logo">
+            <ul>
+                <li><a href="../Packet Tracer 2.0/indexx.html">Index</a></li>
+                <li><a href="vlan routing.html">Vlan Routing</a></li>
+                <li><a href="../Packet Tracer 2.0/keszitette.html">készítette</a></li>
+            </ul>
+        </div>
+</head>
+<body>
+
+        <div class="content">
+        </div>
+            <br>           
+            <div>
+    <h2>Feltesszük a készülékeket, a kép szerint:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/1.lepes.png" alt="1.lépés" width="800" height="480">
+    <br>
+    <h2>Meghatározzuk a host mennyiégét, a VLAN számát, valamint IP címét (Ajánlott kiírni a maszkot is, valamint a kezdő IP címet):</p>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/2.lepes.png" alt="2.lépés" width="800" height="480">
+    <br>
+    <h2>Összekötjük őket, helyesen, a kép szerint:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/3.lepes.png" alt="3.lépés" width="800" height="480">
+    <br>
+    <h2>Belépünk a CLI-be az 1. switch-en:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/4.lepes.png" alt="4.lépés" width="800" height="480">
+    <br>
+    <h2>Belépünk a konfigurációs térbe, a következő parancsokkal, és meghatározzuk a switch nevét:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/5.lepes.png" alt="5.lépés" width="800" height="180">
+    <br>
+    <h2>VTP szervert létrehozunk, és beállítjuk, hogy a switch meg tudja osztani a létrehozott VLAN-okat:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/6.lepes.png" alt="6.lépés" width="800" height="180">
+    <br>
+    <h2>Beállítjuk a VLAN számát, valamint elnevezzük őket:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/7.lepes.png" alt="7.lépés" width="800" height="280">
+    <br>
+    <p>A nativ szerepe, hogy a forgalmat olyan előzőkről továbbítsa, amik nem látják el a kereteket VLAN címkével, pl régi hubok, nem Cisco ezközök</p>
+    <br>
+    <p>A BlackHole szerepe, hogy lezárja azokat a portokat, amiket nem használnak.</p>
+    <br>
+    <h2>A bekötött portokon beállítjuk a VLAN-okat:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/8.lepes.png" alt="8.lépés" width="800" height="480">
+    <br>
+    <h2>Beállítjuk a törzsvonalat (tr) a switchen, hogy ne keveredjenek össze a VLAN-ok, valamint, beállítjuk a switch IP címét, mentjük a konfigurációt:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/9.lepes.png" alt="9.lépés" width="800" height="480">
+    <br>
+    <h2>Átlépünk a második switcher, és belépünk a konfigurációs térbe, és elnevezzük:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/10.lepes.png" alt="10.lépés" width="800" height="480">
+    <br>
+    <h2>vtp szervert létrehozunk, és beállítjuk, hogy a switch meg tudja kapni a létrehozott VLAN-okat:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/11.lepes.png" alt="11.lépés" width="800" height="180">
+    <br>
+    <h2>A bekötött portokon beállítjuk a VLAN-okat:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/12.lepes.png" alt="12.lépés" width="800" height="480">
+    <br>
+    <h2>Beállítjuk a törzsvonalat (tr) a switchen, hogy ne keveredjenek össze a VLAN-ok, valamint, beállítjuk a switch IP címét, mentjük a konfigurációt:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/13.lepes.png" alt="13.lépés" width="800" height="480">
+    <br>
+    <h2>Átlépünk a DHCP Szerverre, meghatározzuk az IP címét, és bekapcsoljuk a DHCP szolgáltatást:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/14.lepes.png" alt="14.lépés" width="800" height="480">
+    <br>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/15.lepes.png" alt="15.lépés" width="500" height="480">
+    <br>
+    <h2>Meghatározzuk a paramétereket, és mentünk:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/16.lepes.png" alt="16.lépés" width="800" height="480">
+    <br>
+    <h2>Visszalépünk az 1. switchre, a g0/2 portján beállítjuk a tr funkciót, és mentünk:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/17.lepes.png" alt="17.lépés" width="800" height="480">
+    <br>
+    <h2>Feltesszük egy routert, bekötjük, és belépünk a CLI be:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/18.lepes.png" alt="18.lépés" width="800" height="480">
+    <br>
+    <h2>Elutasítjuk az autómatikus konfigot, és meghatározzuk a VLAN alhálozatainak az IP címét, mentünk:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/19.lepes.png" alt="19.lépés" width="400" height="800">
+    <br>
+    <h2>DHCP kérünk az egyik PC re:</h2>
+    <img class="kep" src="../Packet Tracer 2.0/stilus/kepek/20.lepes.png" alt="20.lépés" width="800" height="480">
+    <br>
+
+        </div>
+    </div>
+    
+</body>
+</html>
